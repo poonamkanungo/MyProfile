@@ -1,0 +1,148 @@
+body{
+    background-color: #a6e292;
+    text-align: center;
+    
+  }
+
+
+.myname{
+    font-size: 50px;
+    font-family: fangsong;
+}
+
+.header p{
+    justify-content: center;
+}
+
+.myimage img{
+    border-radius: 50%;
+    margin-top:20px;
+    height:200px;
+    width:20%;
+    
+}
+
+.Somethingaboutu{
+    
+    height:auto;
+    font-weight:45px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: cursive;
+    font-size: 22px;
+    margin-left: 28px;
+    margin-right:28px;
+}
+
+.skill_image img{
+    border-radius: 100%;
+}
+
+.MySkills{
+   
+    font-size: 28px;
+    padding-top: 20px;
+    font-family: math;
+    color: aquamarine;;
+}
+
+.Myhobbies{
+    
+    font-size: 28px;
+    
+    font-family: math;
+    color: aquamarine;;
+}
+
+.Mylocation{
+    font-size: 28px;
+    
+    font-family: math;
+    color: aquamarine;;
+}
+.card{
+    max-height:300px;
+
+    width:29%;
+    float:left;
+    margin:2%;
+    overflow: hidden;
+}
+
+.card img{
+    height: 150px;
+    width:150px;
+    border-radius: 50%;
+}
+
+.skilltext{
+    font-size:20px;
+    color:#400;
+}
+
+.card_skill {
+    /* height: 400px; */
+    width: 200px;
+    width: 20%;
+    float: left;
+    margin: 2%;
+    overflow: hidden;
+    transform: scale(0.7);
+    animation-name: example;
+}
+
+.card_skill img{
+    box-shadow: 20px 20px yellow;
+    width:220px;
+    height:220px;
+}
+
+.myimage{
+    margin-bottom:10px;
+}
+
+.socialmedia{
+    height:150px;
+    background-color: black;
+    border-top:4px solid white;
+}
+
+.footText{
+    color:#fff;
+    font-size:20px;
+}
+
+.socialmedia img{
+    width: 34px;
+    height: 39px;
+    margin-left: 18px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.card_skill{
+    transform: scale(1.1);
+    animation:  dance 10s infinite;
+    /* transform: skewX(30deg) */
+    /* transform: rotate(30deg); */
+}
+
+@keyframes dance {
+    0%{
+        transform: rotate(-5deg);
+    }
+    25%{
+        transform:  scale(1.1);
+    }
+    50%{
+        transform: rotate(5deg);
+    }
+    75%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-5deg);
+    }
+}
